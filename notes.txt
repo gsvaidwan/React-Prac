@@ -15,3 +15,5 @@ React Props:
 > Used to send data from parent component to chind components.
 > Props are read-only.
 > Props are immutable, means not change 
+
+Others
