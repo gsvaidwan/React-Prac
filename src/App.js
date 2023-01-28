@@ -2,16 +2,16 @@ import React from 'react'
 import About from './components/About'
 import Contact from './components/Contact'
 
-export default function App() {
+function App() {
   return (
     <>
-     <About name="Gajendra Singh" age="33"/>
+     <About name="Gajendra Singh" age={33} />
      <Contact/>
     </>
   )
 }
 
-
+export default App
 // Define Class component
 // import React from 'react'
 

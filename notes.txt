@@ -16,4 +16,20 @@ React Props:
 > Props are read-only.
 > Props are immutable, means not change 
 
-Others
+React State:
+----------------------
+> States are mutable it means we may change the satate as per the need.
+> to apply dynamic behavior.
+
+** Note-state are used in class component
+
+--> How we define state
+    constructor(props)
+    {
+        super(props);
+        this.state={name:'gsv',city:'Meerut'};
+    }
+--> How we read the state
+    this.state.name
+--> How we update the data
+    this.setState({name:'gsv'})
