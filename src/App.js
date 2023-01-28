@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import About from './components/About'
+import Contact from './components/Contact'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+     <About/>
+     <Contact/>
+    </>
+  )
 }
 
-export default App;
+
+// Define Class component which is stateful --------------- (rcc)
+// import React from 'react'
+
+// class App extends React.Component {
+//   render() {
+//     return (
+//       <>
+//       <h1>Test Heading</h1>
+//       <p>Test Paragraph</p>
+//       </>
+//     )
+//   }
+// }
+// export default App
+
+// Define Function Component which is stateless --------------- (rcf)
+// function App(){
+//   return (
+//   <>
+//   <h1>React Start </h1>
+//   <p>This is paragraph</p>
+//   </>
+//   )
+// }
+// export default App
