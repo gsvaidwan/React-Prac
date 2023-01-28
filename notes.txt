@@ -1,0 +1,17 @@
+
+components:
+-------------------
+There are the main concepts of react js. Every component have their own login and design.
+> Types
+ >Function Component (stateless component)
+ >Class Component (stateful component)
+
+** Function Component- It can not manage state. We can rendor the props values.
+** Class Component - We can manage the status and also use props values.
+
+
+React Props:
+---------------------
+> Used to send data from parent component to chind components.
+> Props are read-only.
+> Props are immutable, means not change 
