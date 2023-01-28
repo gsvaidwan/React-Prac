@@ -12,7 +12,7 @@ export default function App() {
 }
 
 
-// Define Class component which is stateful --------------- (rcc)
+// Define Class component
 // import React from 'react'
 
 // class App extends React.Component {
@@ -27,7 +27,7 @@ export default function App() {
 // }
 // export default App
 
-// Define Function Component which is stateless --------------- (rcf)
+// Define Function Component
 // function App(){
 //   return (
 //   <>
