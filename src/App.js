@@ -5,7 +5,7 @@ import Contact from './components/Contact'
 export default function App() {
   return (
     <>
-     <About/>
+     <About name="Gajendra Singh" age="33"/>
      <Contact/>
     </>
   )
